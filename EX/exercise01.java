@@ -6,7 +6,7 @@ public class exercise01
 {
         public static void main(String[] args)
     {
-        try (Scanner Sc = new Scanner(System.in)) {
+            Scanner Sc = new Scanner(System.in);
             double Celsisus = Sc.nextDouble();
             
             double  Kelvin, Reaumur, Rankine, Fahrenheit;
@@ -20,7 +20,5 @@ public class exercise01
             System.out.print("Reaumur=" + Reaumur);
             System.out.print("Rankine=" + Rankine);
             System.out.print("Fahrenheit=" + Fahrenheit);
-        } 
-    }
-   
+    } 
 }
