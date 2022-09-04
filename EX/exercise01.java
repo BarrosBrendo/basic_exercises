@@ -5,20 +5,21 @@ import java.util.Scanner;
 public class exercise01 
 {
         public static void main(String[] args)
-    {
-            Scanner Sc = new Scanner(System.in);
-            double Celsisus = Sc.nextDouble();
-            
-            double  Kelvin, Reaumur, Rankine, Fahrenheit;
-            
-            Kelvin = Celsisus + 273.15;
-            Fahrenheit = Celsisus * 1.8 + 32;
-            Reaumur = Celsisus * 0.8;
-            Rankine = Celsisus * 1.8 + 32 + 459.67;
-            System.out.print("Celsius=" + Celsisus);
-            System.out.print("Kelvin=" + Kelvin);
-            System.out.print("Reaumur=" + Reaumur);
-            System.out.print("Rankine=" + Rankine);
-            System.out.print("Fahrenheit=" + Fahrenheit);
-    } 
+        {
+                 Scanner sc = new Scanner(System.in);
+                 double celsisus = sc.nextDouble();
+                    
+                 double  kelvin, reaumur, rankine, fahrenheit;
+                    
+                 kelvin = celsisus + 273.15;
+                 fahrenheit = celsisus * 1.8 + 32;
+                 reaumur = celsisus * 0.8;
+                 rankine = celsisus * 1.8 + 32 + 459.67;
+                 System.out.println("Celsius=" + celsisus);
+                 System.out.println("Kelvin=" + kelvin);
+                 System.out.println("Reaumur=" + reaumur);
+                 System.out.println("Rankine=" + rankine);
+                 System.out.println("Fahrenheit=" + fahrenheit);
+                 sc.close();   
+        }
 }
